@@ -2,9 +2,14 @@ import "./globals.css";
 
 export const metadata = {
   title: "Gehna – Luxury You Deserve",
-  description:
-    "Gehna offers premium artificial jewellery crafted for elegance, weddings, parties, and everyday luxury.",
+  description: "Luxury artificial jewellery brand",
+  icons: {
+    icon: [
+      { url: "/gehnalogo.png", type: "image/png" },
+    ],
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (
@@ -33,9 +38,9 @@ export default function RootLayout({ children }) {
             <nav className="nav">
               <a href="/">Home</a>
               <a href="/shop">Shop</a>
-              <a href="/collections">Collections</a>
+             {/* <a href="/collections">Collections</a>*/}
               <a href="/about">About</a>
-              <a href="/contact">Contact</a>
+             {/* <a href="/contact">Contact</a>*/}
             </nav>
 
           </div>
@@ -54,9 +59,10 @@ export default function RootLayout({ children }) {
             </div>
 
             <div className="footer-links">
-              <a href="#">Privacy Policy</a>
-              <a href="#">Terms & Conditions</a>
-              <a href="#">Returns</a>
+            <a href="/privacy-policy">Privacy Policy</a>
+<a href="/terms-conditions">Terms & Conditions</a>
+<a href="/returns">Returns</a>
+
             </div>
 
             <p className="copyright">
