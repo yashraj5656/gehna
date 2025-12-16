@@ -90,13 +90,13 @@ export default function ShopPage() {
     <main className="container">
 
       {/* SHOP HERO */}
-      <section className="shop-hero">
+      {/*<section className="shop-hero">
         <h1>Shop Artificial Jewellery</h1>
         <p>
           Explore our exclusive collection of premium artificial jewellery
           crafted for elegance and everyday luxury.
         </p>
-      </section>
+      </section>*/}
 
       {/* FILTER BAR */}
       <section className="filter-bar">
@@ -112,7 +112,7 @@ export default function ShopPage() {
       </section>
 
       {/* PRICE FILTER */}
-      <section className="price-filter">
+      <section className="price-filter" style={{marginTop:'-1rem'}}>
         <label>
           Max Price: <strong>₹{maxPrice}</strong>
         </label>
@@ -128,7 +128,7 @@ export default function ShopPage() {
 
       {/* PRODUCTS GRID */}
 {/* PRODUCTS GRID */}
-<section className="products">
+<section className="products" style={{marginTop:'-6rem'}}>
   <div className="product-grid">
 
     {filteredProducts.length === 0 && (
