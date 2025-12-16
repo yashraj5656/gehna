@@ -8,6 +8,7 @@ export const products = [
       image: "/product1.jpg",
       description:
         "An elegant royal necklace set crafted with premium stones, perfect for weddings and grand occasions.",
+        inStock: false,  
     },
     {
       id: 2,
@@ -18,6 +19,7 @@ export const products = [
       image: "/product2.jpg",
       description:
         "Beautiful designer earrings that add charm and elegance to your everyday and festive look.",
+        inStock: false, 
     },
     {
       id: 3,
@@ -28,6 +30,7 @@ export const products = [
       image: "/product3.jpg",
       description:
         "Traditional golden bangles designed for timeless beauty and comfort.",
+        inStock: false, 
     },
     {
       id: 4,
@@ -38,6 +41,7 @@ export const products = [
       image: "/product4.jpg",
       description:
         "A delicate stone-studded ring that complements both modern and ethnic outfits.",
+        inStock: false, 
     },
     {
         id: 5,
@@ -48,6 +52,7 @@ export const products = [
         image: "/product5.jpg",
         description:
           "A stunning bridal choker set designed to enhance your wedding look with elegance and grace.",
+          inStock: false, 
       },
       {
         id: 6,
@@ -58,6 +63,7 @@ export const products = [
         image: "/product6.jpg",
         description:
           "Classic traditional jhumkas crafted to bring a touch of heritage and beauty to any outfit.",
+          inStock: false, 
       },
       
   ];

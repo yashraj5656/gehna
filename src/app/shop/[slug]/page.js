@@ -26,13 +26,23 @@ export default async function ProductDetail({ params }) {
         </div>
 
         <div className="product-detail-info">
-          <h1>{product.name}</h1>
-          <p className="category">{product.category}</p>
-          <p className="price">₹{product.price}</p>
-          <p className="description">{product.description}</p>
+  <h1>{product.name}</h1>
+  <p className="category">{product.category}</p>
+  <p className="price">₹{product.price}</p>
+  <p className="description">{product.description}</p>
 
-          <button className="buy-btn big">Buy Now</button>
-        </div>
+  {!product.inStock && (
+    <p className="out-of-stock">Out of Stock</p>
+  )}
+
+  <button
+    className={`buy-btn big ${!product.inStock ? "disabled" : ""}`}
+    disabled={!product.inStock}
+  >
+    {product.inStock ? "Buy Now" : "Unavailable"}
+  </button>
+</div>
+
 
       </section>
     </main>
