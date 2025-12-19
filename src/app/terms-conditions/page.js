@@ -7,14 +7,14 @@ export default function TermsConditionsPage() {
       <p><strong>Last updated:</strong> {new Date().toLocaleDateString()}</p>
 
       <p>
-        Welcome to <strong>Gehna</strong>. By accessing or using our website,
+        Welcome to <strong>Gahne</strong>. By accessing or using our website,
         you agree to comply with and be bound by the following Terms &
         Conditions.
       </p>
 
-      <h2>About Gehna</h2>
+      <h2>About Gahne</h2>
       <p>
-        Gehna is a reseller platform that curates artificial jewellery from
+        Gahne is a reseller platform that curates artificial jewellery from
         trusted suppliers across India. We are not manufacturers of the
         products listed on this website.
       </p>
@@ -41,7 +41,7 @@ export default function TermsConditionsPage() {
 
       <h2>Limitation of Liability</h2>
       <p>
-        Gehna shall not be liable for any indirect, incidental, or consequential
+        Gahne shall not be liable for any indirect, incidental, or consequential
         damages arising from the use of our website or products.
       </p>
 

@@ -6,7 +6,7 @@ export default function AboutPage() {
 
       {/* HERO */}
       <section className="about-hero">
-        <h1>About Gehna</h1>
+        <h1>About Gahne</h1>
         <p>Luxury You Deserve</p>
       </section>
 
@@ -14,7 +14,7 @@ export default function AboutPage() {
       <section className="about-section">
         <h2>Our Story</h2>
         <p>
-          Gehna was founded with a simple vision — to make elegant and
+          Gahne was founded with a simple vision — to make elegant and
           premium-looking artificial jewellery accessible to everyone.
           We believe that luxury should not come with an unaffordable price tag.
         </p>
@@ -48,7 +48,7 @@ export default function AboutPage() {
             <p className="founder-role">Co-Founder</p>
             <p>
               Divyansh Sen focuses on sourcing, quality control, and ensuring
-              that every piece offered on Gehna meets our standards of beauty
+              that every piece offered on Gahne meets our standards of beauty
               and affordability. His goal is to deliver value without
               compromising on quality.
             </p>
@@ -57,9 +57,9 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* WHY GEHNA */}
+      {/* WHY Gahne */}
       <section className="about-section">
-        <h2>Why Choose Gehna?</h2>
+        <h2>Why Choose Gahne?</h2>
 
         <ul className="about-points">
           <li>Curated collections from across India</li>

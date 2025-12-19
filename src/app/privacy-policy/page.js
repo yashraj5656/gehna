@@ -7,7 +7,7 @@ export default function PrivacyPolicyPage() {
       <p><strong>Last updated:</strong> {new Date().toLocaleDateString()}</p>
 
       <p>
-        At <strong>Gehna</strong>, we value your privacy and are committed to
+        At <strong>Gahne</strong>, we value your privacy and are committed to
         protecting your personal information. This Privacy Policy explains how
         we collect, use, and safeguard your data.
       </p>

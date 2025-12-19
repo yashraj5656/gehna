@@ -7,7 +7,7 @@ export default function ReturnsPage() {
       <p><strong>Last updated:</strong> {new Date().toLocaleDateString()}</p>
 
       <p>
-        At <strong>Gehna</strong>, customer satisfaction is important to us.
+        At <strong>Gahne</strong>, customer satisfaction is important to us.
         Please read our Returns & Refund Policy carefully before making a
         purchase.
       </p>

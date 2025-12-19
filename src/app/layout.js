@@ -1,11 +1,11 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Gehna – Luxury You Deserve",
+  title: "Gahne – Luxury You Deserve",
   description: "Luxury artificial jewellery brand",
   icons: {
     icon: [
-      { url: "/gehnalogo.png", type: "image/png" },
+      { url: "/Gahnelogo.png", type: "image/png" },
     ],
   },
 };
@@ -22,8 +22,8 @@ export default function RootLayout({ children }) {
 
             {/* LOGO */}
             <div className="logo">
-              {/*<img src="/gehna-logo.png" alt="Gehna Jewellery" />*/}
-              <span>Gehna</span>
+              {/*<img src="/Gahne-logo.png" alt="Gahne Jewellery" />*/}
+              <span>Gahne</span>
             </div>
 
             {/* HAMBURGER */}
@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
           <div className="container footer-content">
 
             <div className="footer-brand">
-              <h3>Gehna</h3>
+              <h3>Gahne</h3>
               <p>Luxury You Deserve</p>
             </div>
 
@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
             </div>
 
             <p className="copyright">
-              © {new Date().getFullYear()} Gehna. All Rights Reserved.
+              © {new Date().getFullYear()} Gahne. All Rights Reserved.
             </p>
 
           </div>
