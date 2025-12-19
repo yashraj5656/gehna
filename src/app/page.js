@@ -40,7 +40,7 @@ export default function HomePage() {
         </div>
 
         <div className="hero-image">
-          <img src="/gehna1.jpg" alt="Artificial Jewellery" />
+          <img src="/gahne1.jpg" alt="Artificial Jewellery" />
         </div>
       </section>
 

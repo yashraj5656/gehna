@@ -38,10 +38,7 @@ export default function AboutPage() {
             <h3>Yashraj Singh</h3>
             <p className="founder-role">Co-Founder</p>
             <p>
-              Yashraj Singh brings a keen eye for design and a strong
-              understanding of modern fashion trends. His focus is on curating
-              jewellery that blends traditional elegance with contemporary
-              style.
+            Yashraj Singh brings a keen eye for design and a strong understanding of modern fashion trends. His focus is on curating jewellery that blends traditional elegance with contemporary style. In addition, he oversees the brand’s marketing, sales, and branding strategies, ensuring a cohesive identity and strong market presence that resonates with today’s consumers.
             </p>
           </div>
 
